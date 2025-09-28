@@ -11,7 +11,9 @@ This is part of a 4 step learning journey for data analysis.  During this part, 
 ## Procedure
 1. Top in demand skills for data analyst roles
     code:
+
     results:
+
     insights
 
 2. Skill Trends for data analysts
