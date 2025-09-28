@@ -10,11 +10,12 @@ This is part of a 4 step learning journey for data analysis.  During this part, 
 #### Plan
 ## Procedure
 1. Top in demand skills for data analyst roles
-    code:
+After devising two main lines of code that defines the skill count and job titles, I will put them together with matplot library that I imported. I will then make another data extraction point for the percent presence for each skill and again combining it with the job title listed to get a picture of job skills and associated job titles. 
+- Code:
+a) 
+- Results:
 
-    results:
-
-    insights
+- Insights
 
 2. Skill Trends for data analysts
     code:
