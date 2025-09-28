@@ -1,10 +1,10 @@
 # Data Jobs Python Project
 ## Introduction
 #### Background
+- This is part of a 4 step learning journey for data analysis.  During this part, I am learning about Python and it's applications for data analysis. I am specefically using a data set from the job data market to see which set of skills are preffered among employers through their job applications they post. Using this program will allow me to hopefully gain a better understanding of the market and developing my python coding skills that is widely used by professionals around the world. My goal is to use the same set of data throughout my journey and analyze it with SQL, Excel, Power BI, and Python.
 #### Goals
 1. Find the most in demand skills for the top 3 data analyst roles.
 2. Discover the trends for in demand data analyst skills.
-
 #### Plan
 ## Procedure
 1. Top in demand skills for data analyst roles
