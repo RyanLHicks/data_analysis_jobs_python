@@ -21,7 +21,7 @@ This is part of a 4 step learning journey for data analysis.  During this part, 
 
 After devising two main lines of code that defines the skill count and job titles, I will put them together with the matplotlib library that I imported. I will then make another data extraction point for the percent presence for each skill and again combining it with the job title listed to get a descriptive picture of well job skills associate with job titles. 
 
-- [Code](1_project\2_skills_count.ipynb):
+- [Code](https://github.com/RyanLHicks/data_analysis_jobs_python/blob/main/1_project/2_skills_count.ipynb):
 ```
     ## Extracts job skill count
 df_skills_count = df_skills.groupby(['job_skills', 'job_title_short']).size()
@@ -51,7 +51,7 @@ job_titles
 #### 2. Skill Trends for data analysts
 I find the data analyst skills and their monthly trends throughout the year 2023. After dissecting the data based on the month and skill count for each skill, I visualized the data to help anyone understand which skills are more likely to appear on a job posting fora  data analyst. 
 
-- Code:
+- [Code:](https://github.com/RyanLHicks/data_analysis_jobs_python/blob/main/1_project/2_skills_count.ipynb)
 ```
     ## Finds the data to determine monthly trends of skills
 df_da_us_pivot = df_da_us_explode.pivot_table(index='job_posted_month_no', columns='job_skills', aggfunc='size', fill_value=0)
@@ -104,7 +104,7 @@ for i in range(5):
     - After graphing the raw data of skills and their associated trends throughout the year, I can confindently say that learning SQL, Excel, and Python are going to increase your chances of landing a data analyst position. SQL seems to be the most desired skill from employers for data analysts in the US. This helps anyone trying to get into this field to priotize certain learnable hard skills companies want out of their canadites.
     
 #### 3. Salary details for data analyst jobs
-- Code:
+- [Code:](https://github.com/RyanLHicks/data_analysis_jobs_python/blob/main/1_project/4_salary_analysis.ipynb)
 ```
     ## Defines the top 6 job titles from the data set
 df_us_top6 = df_us[df_us['job_title_short'].isin(job_titles)]
@@ -180,7 +180,7 @@ fig.tight_layout()
     - After finding the top skills for data analysts specefically, skills that are more niche will pay more like dplyr and bitbucket. Finding the common skills for data analysts it's clear that python, sql, and tableau are more likely to pay more for just the data analyst role.
 
 ##### 4. Optimal skills for all data analyst roles
-- Code:
+- [Code:](https://github.com/RyanLHicks/data_analysis_jobs_python/blob/main/1_project/5_optimal_skills.ipynb)
 ```
     ## Finds how likely data analyst skills are going to appear on a job description and finds salary associated with the skill
 df_da_skills = df_da_us_exploded.groupby('job_skills')['salary_year_avg'].agg(['count', 'median']).sort_values(by='count', ascending=False)
