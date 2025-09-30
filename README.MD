@@ -51,7 +51,7 @@ job_titles
 #### 2. Skill Trends for data analysts
 I find the data analyst skills and their monthly trends throughout the year 2023. After dissecting the data based on the month and skill count for each skill, I visualized the data to help anyone understand which skills are more likely to appear on a job posting fora  data analyst. 
 
-- [Code:](https://github.com/RyanLHicks/data_analysis_jobs_python/blob/main/1_project/2_skills_count.ipynb)
+- [Code:](https://github.com/RyanLHicks/data_analysis_jobs_python/blob/main/1_project/3_skills_trend.ipynb)
 ```
     ## Finds the data to determine monthly trends of skills
 df_da_us_pivot = df_da_us_explode.pivot_table(index='job_posted_month_no', columns='job_skills', aggfunc='size', fill_value=0)
