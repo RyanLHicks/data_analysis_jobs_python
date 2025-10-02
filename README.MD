@@ -229,8 +229,30 @@ plt.show()
 
 
 - Interpretation:
+    - Skills like Python and SQL are the most sought after skills for a data analyst while also maintaining a solid salary for learning these skills.
 
 ## Conclusion
-####Interpretation
+#### Final Interpretation
+
+- We see that SQL, Excel, and Python are the most desirable skills for Data Analysts, Data Engineers, and Data Scientists generally speaking.
+- For data analysts in the US, we can see that SQL by about a 10-15% margin depending on the month, has a greater occurance rate than the runner up skill of excel. 
+- Senior data scientists in the US get paid the most and data analysts get paid the least on average. 
+- Niche data skills like dplyer and bitbucket are the most paid skills for data analysts.
+- SQL, Python, and Tableau are the highest paid skills that are the most common for the role.
+
+#### Skills Learned 
+- Python nomenclature
+- Pandas
+- Seaborn
+- Matplotlib
+- Git
+- Github
+
 #### Future
+
+- I would like to further research this analysis by taking years of experience into account. As I'm currently searching for entry level data analyst and bussiness analyst positions, I am noticing that most require at least 2-3 years of prior employment experience. I hope the trend shifts for people who are self-taught, but for now that seems to be the biggest limiting factor for data analyst positions.
+- I beleive that this program is not limited to just analysis. While using this as a searching tool for general guidance and learning the physical program, I think that there are many other opportunities beyond data analysis: automating job searches and applications, web scraping for jobs and automatically matching them to my resume's skills and experience, and many other automation related tools for the finance sector.
+
 #### Sources
+- [Luke Barousse](https://www.youtube.com/c/lukebarousse)
+- [The data set](https://huggingface.co/datasets/lukebarousse/data_jobs) 
