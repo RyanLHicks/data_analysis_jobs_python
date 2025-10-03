@@ -1,16 +1,16 @@
 # Data Jobs Python Project
 
 ## Introduction
-#### Background
+#### 🗂️Background
 This is part of a 4 step learning journey for data analysis.  During this part, I am learning about Python and it's applications for data analysis. I am specefically using a data set from the job data market from 2023 to see which set of skills are preffered among employers through their job applications they post. Using this program, it will allow me to gain a better understanding of the market and developing my python coding skills that is widely used by professionals around the world. My goal is to use the same set of data throughout my journey, analyzing and extracting the data with with SQL, Excel, Power BI, and Python.
 
-#### Goals
+#### 🎯Goals
 1. Find the most in demand skills for the top 3 data analyst roles.
 2. Discover the trends for in demand data analyst skills.
 3. Realize the earning potential each data job has.
 4. Analyzing the skills, salaries, and job titles in a final step for decision making.
 
-#### Plan
+#### 📋Plan
 - Devise a code that will first import all the required libraries and datasets.
 - Uncover raw data using python techniques into statistics for data jobs.
 - Visualize out the data using pandas, matplotlib, and seaborn to better understand what we are looking at.
@@ -232,7 +232,8 @@ plt.show()
     - Skills like Python and SQL are the most sought after skills for a data analyst while also maintaining a solid salary for learning these skills.
 
 ## Conclusion
-#### Final Interpretation
+
+#### 📈Final Interpretation
 
 - We see that SQL, Excel, and Python are the most desirable skills for Data Analysts, Data Engineers, and Data Scientists generally speaking.
 - For data analysts in the US, we can see that SQL by about a 10-15% margin depending on the month, has a greater occurance rate than the runner up skill of excel. 
@@ -240,7 +241,7 @@ plt.show()
 - Niche data skills like dplyer and bitbucket are the most paid skills for data analysts.
 - SQL, Python, and Tableau are the highest paid skills that are the most common for the role.
 
-#### Skills Learned 
+#### 🧠Skills Learned 
 - Python nomenclature
 - Pandas
 - Seaborn
@@ -248,11 +249,11 @@ plt.show()
 - Git
 - Github
 
-#### Future
+#### 🚀 Future
 
 - I would like to further research this analysis by taking years of experience into account. As I'm currently searching for entry level data analyst and bussiness analyst positions, I am noticing that most require at least 2-3 years of prior employment experience. I hope the trend shifts for people who are self-taught, but for now that seems to be the biggest limiting factor for data analyst positions.
 - I beleive that this program is not limited to just analysis. While using this as a searching tool for general guidance and learning the physical program, I think that there are many other opportunities beyond data analysis: automating job searches and applications, web scraping for jobs and automatically matching them to my resume's skills and experience, and many other automation related tools for the finance sector.
 
-#### Sources
+#### 💻Sources
 - [Luke Barousse](https://www.youtube.com/c/lukebarousse)
 - [The data set](https://huggingface.co/datasets/lukebarousse/data_jobs) 
